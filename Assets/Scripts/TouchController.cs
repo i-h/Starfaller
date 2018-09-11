@@ -16,5 +16,6 @@ public class TouchController : MonoBehaviour {
             if (Input.GetTouch(0).position.x > Screen.width/2) _plr.MoveRight();
             else _plr.MoveLeft();
         }
-	}
+        if (Input.GetKeyDown(KeyCode.Escape)) { Application.Quit(); }
+    }
 }

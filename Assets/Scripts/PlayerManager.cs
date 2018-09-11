@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +17,26 @@ public class PlayerManager : MonoBehaviour {
 
     void TakeDamage()
     {
+        _lives--;
+        switch (_lives)
+        {
+            case 3:
 
+                break;
+            case 2:
+
+                break;
+            case 1:
+
+                break;
+            case 0:
+
+                break;
+        }
+    }
+
+    private void Die()
+    {
+        throw new NotImplementedException();
     }
 }

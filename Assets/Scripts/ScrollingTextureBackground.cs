@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ScrollingTextureBackground : MonoBehaviour {
-    public float Speed = 1.0f;
+    public float Speed = -1.0f;
     Renderer _r;
     Vector2 _offset = new Vector2();
 

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     float _wrapX = 3.5f;
     Vector2 _velocity = new Vector2();
     Vector2 _loopVector = new Vector2();
+    Vector3 _scaleVector = Vector3.one;
     public void Awake()
     {
         _instance = this;
@@ -45,7 +46,17 @@ public class PlayerController : MonoBehaviour {
                 Debug.Log(_velocity);
             }
         }
-	}
+
+        if (_velocity.x > 0)
+        {
+            _scaleVector.x = -1;
+        }
+        else
+        {
+            _scaleVector.x = 1;
+        }
+        transform.localScale = _scaleVector;
+    }
 
     void MovePlayerObject(Vector2 dir)
     {
