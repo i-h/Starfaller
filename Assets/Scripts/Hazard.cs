@@ -7,5 +7,6 @@ public class Hazard : MonoBehaviour {
     private void Update()
     {
         transform.Translate(Vector3.up * HazardSpeed * Time.deltaTime);
+        if (transform.position.y > 10) Destroy(gameObject);
     }
 }

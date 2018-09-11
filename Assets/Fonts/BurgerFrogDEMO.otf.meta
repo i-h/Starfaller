@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c14be1af5ff033a44a1ef77ef74dc8fe
+timeCreated: 1536683809
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 96
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Burger Frog DEMO
+  fontNames:
+  - Burger Frog DEMO
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

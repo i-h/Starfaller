@@ -43,17 +43,16 @@ public class PlayerController : MonoBehaviour {
             else
             {
                 _velocity *= MoveFriction;
-                Debug.Log(_velocity);
             }
         }
 
         if (_velocity.x > 0)
         {
-            _scaleVector.x = -1;
-        }
-        else
-        {
             _scaleVector.x = 1;
+        }
+        else if (_velocity.x < 0)
+        {
+            _scaleVector.x = -1;
         }
         transform.localScale = _scaleVector;
     }

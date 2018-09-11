@@ -136,7 +136,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 86466109}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.030000001, y: 0.19899988, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 557150120}
@@ -378,7 +378,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 471141009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.030000001, y: 0.19899988, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 557150120}
@@ -534,6 +534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65a8356739d05b145a68ba0272f38171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health3: {fileID: 471141010}
+  Health2: {fileID: 86466110}
+  Health1: {fileID: 2077837003}
 --- !u!61 &557150122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -879,7 +882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cf7fe809c726c2409eada039aef20da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnInterval: 2
+  SpawnInterval: 4
   HazardPrefabs:
   - {fileID: 114922108337756288, guid: 184e03139f3389a49b10c41c1ae63ea7, type: 2}
 --- !u!1 &1444547136
@@ -1215,7 +1218,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2077837002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.199, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 557150120}
