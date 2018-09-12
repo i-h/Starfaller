@@ -35,6 +35,7 @@ public class ScrollingSpriteBackground : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        if (PlayerManager.IsPaused) return;
         transform.position += Vector3.up * Speed * Time.deltaTime;
         if (transform.position.y > 10)
         {

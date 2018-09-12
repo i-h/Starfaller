@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
         _instance = this;
     }
     void Update () {
+        if (PlayerManager.IsPaused) return;
         _loopVector = transform.position;
         if (_loopVector.x < -_wrapX)
         {
